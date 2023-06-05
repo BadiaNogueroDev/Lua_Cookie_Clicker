@@ -1,0 +1,26 @@
+function init(self)
+	button_url = msg.url("/birra#button")
+	
+	clics_counter = 0
+	counter_text = gui.get_node("counter_text")
+	pizza = gui.get_node("pizza")
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("increase_clic") then
+		--ESCRIU A LA UI ELS CLICS QUE PORTA
+		clics_counter = clics_counter + 1
+		gui.set_text(counter_text, "Clientes: " .. clics_counter)
+
+		--SI LA PIZZA ESTA COMPLETA, LA BUIDA
+		if gui.get_fill_angle(pizza) >= 360 then
+			gui.set_fill_angle(pizza, 0)
+			
+			msg.post(button_url, "instance_bed")
+			sound.play("/hud#pizza")
+		end
+
+		fill_angle = gui.get_fill_angle(pizza)
+		gui.set_fill_angle(pizza, fill_angle + 36)
+	end
+end

@@ -1,0 +1,15 @@
+function init(self)
+	gui_url = msg.url("/hud#hud") --SCRIPT DEL GUI
+	clic_timer(self)
+end
+
+function clic_timer(self)
+	timer.delay(1,true,clic)
+end
+
+function clic (self)
+	sound.play("#cling")
+	go.set(".", "scale", 0.25)
+	go.animate(".", "scale", go.PLAYBACK_ONCE_PINGPONG, 0.27, go.EASING_LINEAR, 0.5)
+	msg.post(gui_url, "increase_clic")
+end

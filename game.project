@@ -1,0 +1,19 @@
+[bootstrap]
+main_collection = /main/Main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1920
+height = 1080
+vsync = 0
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = DarianBadia_CoockieClicker
+write_log = 1
+bundle_resources = 
+
