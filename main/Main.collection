@@ -11,8 +11,8 @@ embedded_instances {
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
   "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
+  "    x: 960.0\n"
+  "    y: 540.0\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -24,9 +24,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 750.0
-    y: 375.0
-    z: -1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -35,13 +35,13 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.25
-    y: 0.25
-    z: 0.25
+    x: 1.0
+    y: 1.0
+    z: 1.0
   }
 }
 embedded_instances {
-  id: "Coockie"
+  id: "Cookie"
   data: "components {\n"
   "  id: \"button\"\n"
   "  component: \"/scripts/button.script\"\n"
@@ -60,8 +60,8 @@ embedded_instances {
   "  }\n"
   "}\n"
   "components {\n"
-  "  id: \"glup\"\n"
-  "  component: \"/sounds/glup.ogg\"\n"
+  "  id: \"click\"\n"
+  "  component: \"/sounds/button_click.ogg\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -79,8 +79,8 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/sprites/birra.atlas\\\"\\n"
-  "default_animation: \\\"birra\\\"\\n"
+  "  data: \"tile_set: \\\"/sprites/Cookie.atlas\\\"\\n"
+  "default_animation: \\\"perfectCookie\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -96,29 +96,10 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "}\n"
-  "embedded_components {\n"
-  "  id: \"bed_factory\"\n"
-  "  type: \"factory\"\n"
-  "  data: \"prototype: \\\"/prefabs/1_Mouse.go\\\"\\n"
-  "load_dynamically: false\\n"
-  "dynamic_prototype: false\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
   ""
   position {
-    x: 300.0
-    y: 450.0
+    x: 350.0
+    y: 500.0
     z: 0.0
   }
   rotation {
@@ -128,9 +109,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.25
-    y: 0.25
-    z: 0.25
+    x: 0.7
+    y: 0.7
+    z: 0.7
   }
 }
 embedded_instances {
@@ -150,29 +131,6 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"pizza\"\n"
-  "  type: \"sound\"\n"
-  "  data: \"sound: \\\"/sounds/matasuegras.ogg\\\"\\n"
-  "looping: 0\\n"
-  "group: \\\"master\\\"\\n"
-  "gain: 1.0\\n"
-  "pan: 0.0\\n"
-  "speed: 1.0\\n"
-  "loopcount: 0\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
   "  }\n"
   "}\n"
   ""

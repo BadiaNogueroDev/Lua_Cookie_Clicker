@@ -1,7 +1,65 @@
 INFO:DLIB: Writing log to: ./log.txt
 INFO:ENGINE: Loading data from: build/default
 INFO:ENGINE: Initialised sound device 'default'
-DEBUG:SCRIPT: Listening for debugger on 0.0.0.0
-DEBUG:SCRIPT: Debugger connected from 127.0.0.1
-INFO:DLIB: SSDP: Started on address 192.168.1.134
-INFO:DLIB: SSDP: Done on address 192.168.1.134
+ERROR:SCRIPT: scripts/hud.gui_script:5: No such node: counter_text
+stack traceback:
+  [C]:-1: in function get_node
+  scripts/hud.gui_script:5: in function <scripts/hud.gui_script:1>
+
+ERROR:GAMESYS: Error when initializing gui component: -2.
+INFO:DLIB: SSDP: Started on address 192.168.1.115
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+ERROR:SCRIPT: scripts/hud.gui_script:13: bad argument #1 to 'set_text' (NodeProxy expected, got nil)
+stack traceback:
+  [C]:-1: in function set_text
+  scripts/hud.gui_script:13: in function <scripts/hud.gui_script:9>
+
+ERROR:GAMESYS: Error when dispatching message to gui scene: -2. Message 'increase_clic' sent from main:/Cookie#button to main:/hud#hud.
+INFO:DLIB: SSDP: Done on address 192.168.1.115
